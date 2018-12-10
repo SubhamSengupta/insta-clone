@@ -1,0 +1,55 @@
+.tab {
+  padding: 10px 50px;
+  background: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.tab:hover {
+  cursor: pointer;
+}
+
+.active {
+  background: linear-gradient(to bottom, rgb(105, 167, 238), rgb(73, 144, 226));
+  color: #fff;
+  box-shadow: 0px 4px 14px 0px rgba(209, 209, 209, 0.2);
+}
+
+.add-photo {
+  background: linear-gradient(to bottom, rgb(85, 218, 147), rgb(53, 206, 124));
+  color: #fff;
+}
+
+@media screen and (max-device-width: 640px) {
+  .tab {
+    padding: 10px 20px;
+    background: #fff;
+    font-size: 0.7em;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  .tab:hover {
+    cursor: pointer;
+  }
+
+  .active {
+    background: linear-gradient(
+      to bottom,
+      rgb(105, 167, 238),
+      rgb(73, 144, 226)
+    );
+    color: #fff;
+    box-shadow: 0px 4px 14px 0px rgba(209, 209, 209, 0.2);
+  }
+
+  .add-photo {
+    background: linear-gradient(
+      to bottom,
+      rgb(85, 218, 147),
+      rgb(53, 206, 124)
+    );
+    color: #fff;
+  }
+}

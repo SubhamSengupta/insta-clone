@@ -1,0 +1,43 @@
+.photo-form {
+  width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 10% auto;
+  padding: 2%;
+}
+
+.photo-form label {
+  font-size: 20px;
+  color: #333;
+}
+
+.photo-form input {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.photo-form .upload-btn {
+  padding: 10px 20px;
+  background: linear-gradient(to bottom, rgb(85, 218, 147), rgb(53, 206, 124));
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.photo-form .upload-btn:hover {
+  cursor: pointer;
+  background: rgb(6, 119, 40);
+}
+
+.photo-form .photo-preview {
+  width: 100%;
+}
+
+@media screen and (max-device-width: 640px) {
+  .photo-form {
+    width: 300px;
+    margin: 15% auto;
+  }
+}

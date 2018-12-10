@@ -1,0 +1,49 @@
+.app-photo-grid {
+  position: relative;
+  width: 200px;
+  height: 180px;
+  margin: 0 0.5rem 1rem 0;
+}
+
+.app-photo-grid .image {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app-photo-grid:hover {
+  cursor: pointer;
+}
+.app-photo-grid:hover .app-photo-shimmer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-photo-shimmer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 14px 0 rgba(190, 190, 190, 1);
+  display: none;
+}
+
+@media screen and (max-device-width: 640px) {
+  .app-photo-grid {
+    position: relative;
+    width: 170px;
+    height: 150px;
+    margin: 0 5px 5px 0;
+  }
+
+  .app-photo-shimmer {
+    display: none;
+  }
+
+  .app-photo-grid:hover .app-photo-shimmer {
+    display: none;
+  }
+}

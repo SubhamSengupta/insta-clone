@@ -1,0 +1,39 @@
+.app-photo-holder.GRID {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 2rem;
+}
+
+.app-photo-holder.SCROLL {
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.app-photo-holder {
+  width: 100%;
+  height: 80vh;
+  overflow-y: auto;
+  box-shadow: inset 0 4px 14px 0 rgb(209, 209, 209);
+}
+
+@media screen and (max-device-width: 640px) {
+  .app-photo-holder.GRID {
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1%;
+  }
+
+  .app-photo-holder.SCROLL {
+    width: 98%;
+    padding: 1%;
+  }
+
+  .app-photo-holder {
+    width: 100%;
+    height: 80vh;
+    overflow-y: auto;
+    box-shadow: inset 0 4px 14px 0 rgb(209, 209, 209);
+  }
+}

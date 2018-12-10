@@ -1,0 +1,23 @@
+.modal-img {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15vh auto;
+}
+
+.modal-img img {
+  height: 50vh;
+}
+
+@media screen and (max-device-width: 640px) {
+  .modal-img {
+    margin: 10vh auto;
+  }
+
+  .modal-img img {
+    width: 100%;
+    height: auto;
+  }
+}

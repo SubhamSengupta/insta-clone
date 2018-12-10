@@ -1,0 +1,21 @@
+.tabs-holder {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  margin: 2rem 0 1rem 0;
+  background: rgba(209, 209, 209, 0.3);
+  border-radius: 4px;
+}
+
+@media screen and (max-device-width: 640px) {
+  .tabs-holder {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    margin: 0;
+    background: rgba(209, 209, 209, 0.3);
+    border-radius: 0;
+  }
+}

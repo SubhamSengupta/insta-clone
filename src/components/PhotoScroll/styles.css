@@ -1,0 +1,19 @@
+.app-photo-scroll {
+  margin: 2% auto;
+  width: 70%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.app-photo-scroll img {
+  width: 100%;
+}
+
+@media screen and (max-device-width: 640px) {
+  .app-photo-scroll {
+    margin: 2% 1%;
+    width: 96%;
+    padding: 1%;
+  }
+}

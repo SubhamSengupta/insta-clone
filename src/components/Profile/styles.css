@@ -1,0 +1,118 @@
+.app-profile-container {
+  width: 20%;
+  margin: 2rem;
+}
+
+.app-profile-picture {
+  height: 180px;
+  width: 180px;
+}
+
+.app-profile-details {
+  margin-left: 5%;
+  padding: 4%;
+  text-align: center;
+  margin-top: 20px;
+  background: rgba(209, 209, 209, 0.3);
+  border-radius: 5px;
+}
+
+.is-name {
+  font-size: 2rem;
+  color: #555;
+}
+
+.is-address {
+  font-size: 1.1rem;
+  color: #000;
+  margin: 2em 0 0.4em 0;
+}
+
+.is-count {
+  font-size: 1.2rem;
+  color: rgb(16, 163, 231);
+  margin-bottom: 20px;
+}
+
+.is-follower-tag {
+  font-size: 1.3rem;
+  color: #999;
+  font-weight: bold;
+}
+
+.count-details {
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+hr {
+  border-top: 1px solid #bbb;
+  width: 95%;
+}
+
+.count-div {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-device-width: 640px) {
+  .app-profile-container {
+    width: 98%;
+    margin: 1%;
+  }
+
+  .app-profile-picture {
+    height: 100px;
+    width: 100px;
+    margin: 10px 0 0 10px;
+  }
+
+  .app-profile-details {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background: none;
+    border-radius: 0;
+  }
+
+  .is-name {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: bold;
+  }
+
+  .is-address {
+    font-size: 0.8rem;
+    color: #000;
+    margin: 1em 0 0.4em 0;
+  }
+
+  .is-count {
+    font-size: 0.7rem;
+    color: rgb(16, 163, 231);
+    margin-bottom: 10px;
+  }
+
+  .is-follower-tag {
+    font-size: 0.8rem;
+    color: #999;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .count-details {
+    border: none;
+    border-radius: 0;
+    margin-top: 10px;
+  }
+
+  .count-div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  hr {
+    display: none;
+  }
+}
